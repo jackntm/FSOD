@@ -1,6 +1,6 @@
 # Prompt Driven Few Shot Object Detection (FSOD)
 
-This study presents a Few-Shot Object Detection (FSOD) approach designed to address the challenge of extremely limited reference data. The system operates under a strict protocol where each target class is defined by a support set of only $N \le 3$ reference images.
+This study presents a Few-Shot Object Detection (FSOD) approach designed to address the challenge of extremely limited reference data[cite: 16]. The system operates under a strict protocol where each target class is defined by a support set of only $N \le 3$ reference images.
 
 ## 👥 Team Members
 Developed by a team from the Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT):
@@ -31,6 +31,14 @@ The proposed methodology follows a three-stage processing architecture that syne
 * **Algorithm**: Merges adjacent temporal segments ($Start_{next} = End_{curr} + 1$) to simulate stable object tracking.
 * **Output**: Serializes results into a standardized JSON format containing `video_id` and consolidated annotations.
 
+## 🎮 Interactive Demo
+We have prepared a ready-to-run Google Colab notebook. This environment is pre-configured with all necessary dependencies, including **SAM 2**, **DINOv2**, and **Rembg**.
+
+* **Google Colab Link**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GGQo42qq8UUeVVOKuwvPKYsRBhvMApwo?usp=sharing)
+
+> [!IMPORTANT]
+>The Colab notebook requires a **GPU runtime** (T4 or better) to handle the Foundation Models efficiently.
+
 ## 🛠 Installation
 
 ### 1. Prerequisites
@@ -44,3 +52,4 @@ Clone the repository and install the dependencies:
 git clone [https://github.com/jackntm/FSOD.git](https://github.com/jackntm/FSOD.git)
 cd FSOD
 pip install -r requirements.txt
+
