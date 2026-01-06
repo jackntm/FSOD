@@ -1,6 +1,6 @@
 # Prompt Driven Few Shot Object Detection (FSOD)
 
-This study presents a Few-Shot Object Detection (FSOD) approach designed to address the challenge of extremely limited reference data[cite: 16]. The system operates under a strict protocol where each target class is defined by a support set of only $N \le 3$ reference images.
+This study presents a Few-Shot Object Detection (FSOD) approach designed to address the challenge of extremely limited reference data. The system operates under a strict protocol where each target class is defined by a support set of only $N \le 3$ reference images.
 
 ## 👥 Team Members
 Developed by a team from the Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT):
