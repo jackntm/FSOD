@@ -1,0 +1,17 @@
+# Không đưa các folder dữ liệu lên
+/samples/
+/datasetTrain/
+/datasetPredict/
+
+# Không đưa các file kết quả trung gian
+*.csv
+*.json
+*.jpg
+
+# Không đưa model AI (nặng vài GB) lên
+*.pt
+*.yaml
+
+# Các file rác của hệ thống/python
+__pycache__/
+.env
